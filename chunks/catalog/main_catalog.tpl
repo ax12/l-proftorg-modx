@@ -1,4 +1,4 @@
-<section class="pt-120 pb-90 section-pattern bg-img" style="background-image: url(&quot;assets/img/section-pattern/feature-pattern.png&quot;);">
+<section class=" pb-90 section-pattern bg-img" style="background-image: url(&quot;assets/img/section-pattern/feature-pattern.png&quot;);">
     <div class="container">
         <div class="row justify-content-center">
 
@@ -11,6 +11,7 @@
                                          header_in_catalog,
                                          description_in_catalog',
                         'processTVs' => 1,
+                        'sortby' => '{"menuindex":"ASC"}'
 
                     ])}
                     <!-- Feature Content End -->

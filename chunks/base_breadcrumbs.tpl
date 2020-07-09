@@ -1,4 +1,4 @@
-<section class="page-title-bg pt-250 pb-100 bg-img" style="background-image: url(&quot;assets/img/section-pattern/page-title.png&quot;);">
+<section class="page-title-bg pt-100 pb-100 bg-img" style="background-image: url(&quot;assets/img/section-pattern/page-title.png&quot;);">
     <div class="container">
         <div class="row">
             <div class="col-12">
