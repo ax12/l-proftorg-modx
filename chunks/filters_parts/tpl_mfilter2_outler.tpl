@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="row">
+    <div class="row justify-content-center">
         {if $filters != ('mse2_err_no_filters' | lexicon)}
         <div class="col-lg-2">
             <div class="sidebar-widget">
@@ -21,14 +21,17 @@
                     </div>
                 </div>
 
-                <div class="pro-pagination-style text-center mt-30">
-                    <div class="paging mse2_pagination">
-                        <nav>
-                            {'page.nav' | placeholder}
-                        </nav>
-                    </div>
-                </div>
+
             </div>
+        </div>
+        <div class="col-md-2 col-12">
+
+                <div class="paging mse2_pagination text-center">
+                    <nav>
+                        {'page.nav' | placeholder}
+                    </nav>
+                </div>
+
         </div>
 
 

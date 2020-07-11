@@ -1,22 +1,27 @@
-<section class="pt-120 pb-120">
+<section class=" pb-120">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
+                <img  class="mx-flex img-fluid mx-auto d-block" src="{$image | phpthumbon:'h=500&zc=1&q=99'}" data-rjs="2" alt="">
+            </div>
+            <div class="col-lg-6">
                 <!-- Section Title Begin -->
                 <div class="section-title mb-50 mb-lg-0">
-                    <h3>What We’ve Done</h3>
-                    <h2>We Work All Over The <br>
-                        World With Company</h2>
-                    <p>Enjoyed minutes related on fanny dried as often me. Goodness as reserved raptures to mistaken steepest oh he. Gravity he
-                        mr sixteen esteems. Mile home new way with high said. Finished horrible blessing landlord dwelling dissuade if. Rent
-                        fond am he in on read. Anxious cordial demands settled entered in do to colonel landlord dwelling dissuade.</p>
+                    <h2>{$_modx->resource.longtitle ? $_modx->resource.longtitle : $_modx->resource.pagetitle} </h2>
+                    <p>{$_modx->resource.content}</p>
+
+                    {$_modx->runSnippet ('msProductOptions', [
+                    'tpl' => '@FILE chunks/catalog_item/tpl/tpl_top_options_product.tpl'
+
+                    ])}
+
+
+                    {$_modx->resource.parent | resource : 'default_characteristics'}
                 </div>
                 <!-- Section Title End -->
             </div>
 
-            <div class="col-lg-6">
-                <img src="assets/img/case-study-about.jpg" data-rjs="2" alt="">
-            </div>
+
         </div>
     </div>
 </section>

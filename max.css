@@ -83,3 +83,6 @@ table {
     border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
     border: 1px solid grey !important; /*устанавливаем для таблицы внешнюю границу серого цвета толщиной 1px*/
 }
+.list-check li:not(:last-child) {
+    margin-bottom: 5px;
+}
