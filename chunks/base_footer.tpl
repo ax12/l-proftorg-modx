@@ -1,150 +1,148 @@
-<footer class="footer footer-topbar page-section-pt">
-    <div class="container">
-        <div class="row top">
-            <div class="col-lg-3 col-md-2">
-                <img class="img-fluid" src="{$_modx->getPlaceholder('+option_logo_1')}" alt="">
-            </div>
-            <div class="col-lg-7 col-md-8">
-                <div class="footer-nav text-right">
-                  {$_modx->runSnippet('pdoMenu', [
-                        'parents' => 0,
-                        'level' => 1,
-                        'resources' => -4
-                    ])}
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="social text-right">
-                    <ul>
+<!-- Footer Begin -->
+<footer class="footer bg-light section-pattern footer-bg" data-bg-img="assets/img/section-pattern/footer-pattern.png">
+    <!-- Footer Top Begin -->
+    <div class="footer-top pt-60">
+        <div class="container border-bottom">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <!-- Contact Widget Begin -->
+                    <div class="widget widget_contact_info">
+                        <!-- Widget Logo Begin -->
+                        <div class="widget-logo">
+                            <img class="img-fluid" src="assets/img/logo.png"
+                                 width="150"
+                                 data-rjs="2" alt="">
+                        </div>
+                        <!-- Widget Logo End -->
 
-                        <li>
-                            <a href="#"> <i class="fa fa-vimeo"></i> </a>
-                        </li>
-                        <li>
-                            <a href="#"> <i class="fa fa-linkedin"></i> </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <hr />
-        <div class="row">
-            <div class="col-lg-5 col-md-12">
-                <div class="about-content">
-                    <h6 class="mb-2">О нас</h6>
-                    <p>{$_modx->getPlaceholder('+option_footer_desc')} </p>
-                </div>
-            </div>
-            <div class="col-lg-7 col-md-12">
-                <h6 class="mb-2">Быстрые ссылки по основным разделам</h6>
-                <div class="usefull-link">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <ul>
-                                <li>
-                                    <a href="{22 | url}"> <i class="fa fa-angle-right"></i> WEB Разработка </a>
-                                </li>
-                                <li>
-                                    <a href="{5 | url}"> <i class="fa fa-angle-right"></i> Примеры сайтов</a>
-                                </li>
-                                <li>
-                                    <a href="{11 | url}"> <i class="fa fa-angle-right"></i> Наш блог</a>
-                                </li>
-                            </ul>
+                        <!-- Widget Content Begin -->
+                        <div class="info-content">
+                            <div class="single-info">
+                                <span>Адрес</span>
+                                <p>{$_modx->getPlaceholder('+city')}, {$_modx->getPlaceholder('+address')}</p>
+                            </div>
+                            <div class="single-info">
+                                <span>Телефоны</span>
+                                <p><a href="{$_modx->getPlaceholder('+phone_1')}">{$_modx->getPlaceholder('+phone_1')}</a><a href="{$_modx->getPlaceholder('+phone_2')}">{$_modx->getPlaceholder('+phone_2')}</a></p>
+                            </div>
+                            <div class="single-info">
+                                <span>Написать</span>
+                                <p>
+                                    <a href="#">{$_modx->getPlaceholder('+email')}</a>
+                                </p>
+                            </div>
                         </div>
-                        <div class="col-md-4">
-                            <ul>
-                                <li>
-                                    <a href="{23 | url}"> <i class="fa fa-angle-right"></i> Портфолио дизайнера </a>
-                                </li>
-                                <li>
-                                    <a href="{11 | url}"> <i class="fa fa-angle-right"></i> Content Management</a>
-                                </li>
-                                <li>
-                                    <a href="#"> <i class="fa fa-angle-right"></i> Blog Management</a>
-                                </li>
-                            </ul>
+                        <!-- Widget Content End -->
+                    </div>
+                    <!-- About Widget End -->
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <!-- Widget Recent Post Begin -->
+                    <div class="widget widget_recent_entries">
+                        <!-- Widget Title Begin  -->
+                        <div class="widget-title">
+                            <h4>Новости</h4>
                         </div>
-                        <div class="col-md-4">
-                            <ul>
-                                <li>
-                                    <a href="#"> <i class="fa fa-angle-right"></i> Virtual Marketing </a>
-                                </li>
-                                <li>
-                                    <a href="#"> <i class="fa fa-angle-right"></i> Email Marketing</a>
-                                </li>
-                                <li>
-                                    <a href="#"> <i class="fa fa-angle-right"></i> Keyword Analytics </a>
-                                </li>
-                            </ul>
+                        <!-- Widget Title End  -->
+
+                        <!-- Single Latest Post Begin -->
+                        <div class="single-post media">
+
+                            <div class="post-content media-body">
+                                <span class="posted-on">18 фераля, 2019</span>
+                                <h5><a href="#">Запуск раскроечного участка</a></h5>
+                            </div>
+                        </div>
+                        <!-- Single Latest Post End -->
+
+                        <!-- Single Latest Post Begin -->
+                        <div class="single-post media">
+
+                            <div class="post-content media-body">
+                                <span class="posted-on">22 апреля, 2020</span>
+                                <h5><a href="#">Разработка нового модельного ряда школьной формы</a></h5>
+                            </div>
+                        </div>
+                        <!-- Single Latest Post End -->
+                    </div>
+                    <!-- Widget Recent Post End -->
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <!-- Widget Quick Nav -->
+                    <div class="widget widget_nav_menu">
+                        <!-- Widget Title Begin  -->
+                        <div class="widget-title">
+                            <h4>Быстрые ссылки</h4>
+                        </div>
+                        <!-- Widget Title End  -->
+
+                        <!-- Menu Begin -->
+                        <ul class="menu">
+                            <li><a href="{1 | url}">Главная</a></li>
+                            <li><a href="{2 | url}">Каталог</a></li>
+                            <li><a href="{3 | url}">Спецодежда</a></li>
+                            <li><a href="{11 | url}">Контакты</a></li>
+
+                        </ul>
+                        <!-- Menu End -->
+                    </div>
+                    <!-- Widget Quick Nav -->
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Widget Newsletter Begin -->
+                    <div class="widget widget_newsletter">
+                        <!-- Widget Title Begin  -->
+                        <div class="widget-title">
+                            <h4>Как с нами связаться</h4>
+                        </div>
+                        <!-- Widget Title End  -->
+
+                        <div class="newsletter-content">
+                            <P>Вы можете связаться с нами удобным для вас способом, по телефону или электронной почте, так же приехать к
+                            нам в офис, для личной встрече по предварительной договренности</P>
+
+
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mt-8">
-            <div class="col-md-4 bottom-m3">
-                <div class="contact-box">
-                    <div class="contact-icon">
-                        <i class="ti-direction-alt"></i>
+                    <!-- Widget Newsletter End -->
+
+                    <!-- Widget Social Icon Begin -->
+                    <div class="widget widget_social_icon">
+                        <ul class="social_icon_list list-inline">
+                            <li>
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="contact-info">
-                        <h5>{$_modx->getPlaceholder('+option_telephone_ekb')}</h5>
-                        <span>Россия, Екатеринбург</span>
-                    </div>
-                </div>
-            </div>
-            {if $_modx->getPlaceholder('+is_krasnodar')}
-            <div class="col-md-4 bottom-m3">
-                <div class="contact-box">
-                    <div class="contact-icon">
-                        <i class="ti-direction-alt"></i>
-                    </div>
-                    <div class="contact-info">
-                        <h5>{$_modx->getPlaceholder('+option_telephone_krnd')}</h5>
-                        <span>Россия, Краснодар</span>
-                    </div>
-                </div>
-            </div>
-            {/if}
-            <div class="col-md-4">
-                <div class="contact-box">
-                    <div class="contact-icon">
-                        <i class="ti-email"></i>
-                    </div>
-                    <div class="contact-info">
-                        <h5>{$_modx->getPlaceholder('+option_email')}</h5>
-                        <span>24 X 7 техподдержка</span>
-                    </div>
+                    <!-- Widget Social Icon End -->
                 </div>
             </div>
         </div>
     </div>
-    <div class="copyright mt-6">
+    <!-- Footer Top End -->
+
+    <!-- Footer Bottom Begin -->
+    <div class="footer-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <ul class="list-inline text-left">
-                        <li><a href="{25 | url}">Обработка персональных даных </a> &nbsp;&nbsp;&nbsp;|</li>
-
-
-                        <li><a href="#">Cookies </a></li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <div class="text-right">
-                        <p>Copyright © 2020 WEB Студия СайтАрсенал.</p>
+                <div class="col-12">
+                    <div class="copyright-text text-center">
+                        <span><a href="#">bizidea</a> &copy; Copyright 2019.All rights reserved.</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</footer>
+    <!-- Footer Bottom End -->
 
-<!--=================================
-back to top -->
-<div class="back-to-top">
-    <span><img src="assets/images/rocket.png" data-src="assets/images/rocket.png" data-hover="assets/images/rocket.gif" alt=""></span>
-</div>
-<!--=================================
-back to top -->
+</footer>
+<!-- Footer End -->

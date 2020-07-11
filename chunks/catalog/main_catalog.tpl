@@ -6,6 +6,7 @@
                     <!-- Feature Content Begin -->
                     {$_modx->runSnippet('!pdoResources', [
                         'parents' => 2,
+                        'depth' => 0,
                         'tpl' => '@FILE chunks/catalog/tpl/tpl_single_in_main_catalog.tpl',
                         'includeTVs' => 'img_in_catalog,
                                          header_in_catalog,

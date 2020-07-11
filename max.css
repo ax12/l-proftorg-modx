@@ -28,3 +28,58 @@
       padding: 1px 20px;
 
 }
+.mx-no-markers {
+    list-style-type: none;
+    padding: 0px 0px;
+}
+.custom-control {
+
+    padding-left: 0rem;
+}
+
+element.style {
+}
+.single-team-member .team-info .info-front {
+
+    background-color: #f0ffff85;
+}
+.mx-count {
+    background-color: #eeeeee;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50px;
+
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    font-size: 13px;
+}
+.single-team-member .team-info {
+    position: relative;
+ max-width: 100%;
+}
+.mx-price {
+    color: #5f5f5f;
+    font-weight: 700;
+}
+
+.single-team-member {
+    margin-bottom: 50px;
+}
+.single-team-member .team-info {
+    -webkit-transform: translateY(-0%);
+
+}
+.mx-bg-catalog-on-mp {
+    background-color: #f5f5f5;
+}
+.widget .widget-logo, .widget .widget-title {
+    margin-bottom: 22px;
+}
+table {
+    border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+    border: 1px solid grey !important; /*устанавливаем для таблицы внешнюю границу серого цвета толщиной 1px*/
+}

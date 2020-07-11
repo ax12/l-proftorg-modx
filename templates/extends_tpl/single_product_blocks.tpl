@@ -1,0 +1,1 @@
+{include 'file:chunks/catalog_item/single_page_product.tpl'}
