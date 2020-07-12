@@ -3,6 +3,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="{$_modx->resource.seokeywords}" />
+
     {if $_modx->resource.seodescription}
     <meta name="description" content="{$_modx->resource.seodescription}" />
     {/if}

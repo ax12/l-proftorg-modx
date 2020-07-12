@@ -4,12 +4,13 @@
     'element' => 'msProducts',
     'class' => 'msProduct',
     'showEmptyFilters' => 0,
-    'limit' => 9,
+    'limit' => 18,
     'tplOuter' => '@FILE chunks/filters_parts/tpl_mfilter2_outler.tpl',
 
     'filters' =>'
                 msoption|option_type_cloth,
-                msoption|option_color,'
+                msoption|option_color,
+                msoption|option_add,'
 
     'aliases' => '
                 msoption|option_color==color,

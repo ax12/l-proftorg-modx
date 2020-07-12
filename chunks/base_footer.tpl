@@ -133,13 +133,11 @@
     <!-- Footer Bottom Begin -->
     <div class="footer-bottom">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="copyright-text text-center">
-                        <span><a href="#">bizidea</a> &copy; Copyright 2019.All rights reserved.</span>
-                    </div>
-                </div>
+            <div class="text-center">
+                <h5><span> <a href="https://sitearsenal.ru/">Разработка сайта - web студия SiteArsenal</a></span>
+                </h5>
             </div>
+
         </div>
     </div>
     <!-- Footer Bottom End -->

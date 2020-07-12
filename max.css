@@ -86,3 +86,17 @@ table {
 .list-check li:not(:last-child) {
     margin-bottom: 5px;
 }
+.mx-price-in-item {
+    color: #28a745;
+    font-weight: 700;
+    font-size: 22px;
+}
+.mx-color-in-item {
+    color: #17a2b8;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.mx-text-center {
+    margin-left: 30%;
+}

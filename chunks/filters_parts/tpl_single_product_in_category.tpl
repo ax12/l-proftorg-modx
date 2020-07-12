@@ -22,6 +22,9 @@
         <div class="team-info">
             <div class="info-front text-center">
                 <h4>{$longtitle ?: $pagetitle} </h4>
+
+                <ul class="list-unstyled list-check" >
+
                 {if $price}
                 Цена:<span class="mx-price"> {$price} руб</span>
                 {else}
