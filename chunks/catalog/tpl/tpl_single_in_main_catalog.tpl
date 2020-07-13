@@ -5,7 +5,7 @@
         <!-- Feature Image Begin -->
         <div class="image">
             <a href="{$id | url}">
-                <img class="mx-flex img-fluid mx-auto d-block" src="{$_pls["tv.img_in_catalog"] | phpthumbon: '&h=150&w=150&q=99' }" data-rjs="2" alt="{$pagetitle | htmlent}"></a>
+                <img class="mx-flex img-fluid mx-auto d-block" src="{$_pls["tv.img_in_catalog"] | phpthumbon: '&h=150&q=99' }" data-rjs="2" alt="{$pagetitle | htmlent}"></a>
         </div>
         <!-- Feature Image End -->
 

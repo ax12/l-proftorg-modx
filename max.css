@@ -1,5 +1,5 @@
 .fixed-top {
-
+/*on host*/
     margin-top: 40px !important;
 }
 
@@ -99,4 +99,28 @@ table {
 }
 .mx-text-center {
     margin-left: 30%;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+  .breadcrumb-area span{
+      font-size: 12px;
+      text-align: left !important;
+  }
+
+    .pagination li:first-child {
+        display: none;
+    }
+    .pagination li:last-child {
+        display: none;
+    }
+    .mx-text-center {
+        margin-left: 0%;
+    }
+    .pagination li {
+        margin: 0 0px;
+    }
+
 }

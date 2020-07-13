@@ -8,7 +8,7 @@
 
 
 
-            <img class="mx-flex img-fluid mx-auto d-block" src="{$image | phpthumbon:'h=250&zc=1&q=99'}" alt="{$pagetitle | htmlent}">
+            <img class="mx-flex img-fluid mx-auto d-block" src="{$image | phpthumbon:'h=250&q=99'}" alt="{$pagetitle | htmlent}">
 
 
 

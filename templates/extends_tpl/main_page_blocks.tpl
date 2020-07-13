@@ -7,8 +7,7 @@
                 <div class="section-title text-center">
                     <h3>собственное производство</h3>
                     <h2>Каталог нашей продукции</h2>
-                    <p>Delivered dejection necessary objection do mr prevailed. Mr feeling do chiefly cordial in do. Water timed folly right
-                        aware if oh truth. Imprudence attachment him his for sympathize.</p>
+                    <p></p>
                 </div>
                 <!-- Section Title End -->
             </div>
@@ -28,15 +27,10 @@
                 <!-- Section Title Begin -->
                 <div class="section-title">
                     <h3>О нас</h3>
-                    <h2>Мы лучшие в своем деле                      </h2>
-                    <p>Швейная фабрика «Лидер–Торг»  работает с 2006 г.
-                        На производстве трудиться более 40 человек: высококвалифицированные технологи, закройщики и швеи.
-                        Фабрика оснащена современным профессиональным оборудованием.
-                        Используются дышащие ткани и качественная фурнитура.
-                        Все это  позволяет нам отшивать изделия с высоким качеством, соответствующую всем гигиеническим нормам.
-
-                    </p>
+                    <h2>{$_modx->resource.about_header}</h2>
+                    <p>{$_modx->resource.about_description}</p>
                 </div>
+
                 <!-- Section Title End -->
 
                 <!-- About Tabs Begin -->
@@ -96,7 +90,7 @@
                 <!-- About Tabs End -->
             </div>
             <div class="col-lg-5 video-area mt-50 mt-lg-0">
-                <img src="assets/img/section-bg/about-feature.png" data-rjs="2" alt="">
+                <img src="{$_modx->resource.about_img}" data-rjs="2" alt="">
 
             </div>
         </div>

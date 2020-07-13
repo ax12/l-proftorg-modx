@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <img  class="mx-flex img-fluid mx-auto d-block" src="{$image | phpthumbon:'h=500&zc=1&q=99'}" data-rjs="2" alt="">
+                <img  class="mx-flex img-fluid mx-auto d-block" src="{$image | phpthumbon:'h=500&q=99'}" data-rjs="2" alt="">
             </div>
             <div class="col-lg-6">
                 <!-- Section Title Begin -->

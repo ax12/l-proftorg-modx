@@ -2,11 +2,11 @@
     <ul class="nav align-items-center">
         <li class="current-menu-parent menu-item-has-children" >
             <a href="#">Главная</a>
-            <ul class="sub-menu">
-                <li class="current-menu-item"><a href="index.html">Landing Page</a></li>
-                <li><a href="home-1.html">home v1</a></li>
-                <li><a href="home-2.html">home v2</a></li>
-            </ul>
+<!--            <ul class="sub-menu">-->
+<!--                <li class="current-menu-item"><a href="index.html">Landing Page</a></li>-->
+<!--                <li><a href="home-1.html">home v1</a></li>-->
+<!--                <li><a href="home-2.html">home v2</a></li>-->
+<!--            </ul>-->
         </li>
         <li class="menu-item-has-children">
             <a href="{2 | url}">Каталог</a>
